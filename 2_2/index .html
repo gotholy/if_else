@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <form>
+      <div id="aqiOutput">AQI:</div>
+      <label for="aqiSlider"></label>
+      <input
+        type="range"
+        id="aqiSlider"
+        name="aqiSlider"
+        min="0"
+        max="150"
+        value="0"
+        oninput="checkAirQuality()"
+      />
+      <p id="aqiTextOutput"></p>
+    </form>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

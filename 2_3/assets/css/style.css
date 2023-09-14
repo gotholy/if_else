@@ -1,0 +1,16 @@
+.login {
+  background-color: grey;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.login labels {
+  color: white;
+  display: block;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
